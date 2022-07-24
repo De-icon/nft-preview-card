@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+.container{
+  width: 300px;
+  height: 500px;
+  background:hsl(216, 50%, 16%);
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px hsl(214, 51%, 9%);
+  
+}
+.image{
+  width: 87%;
+  height: 250px;
+  background-image: url(img/image-equilibrium.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  overflow:hidden;
+}
+.view:hover{
+   opacity: 70%;
+}
+.view{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   position:absolute;
+   width: 100%;
+   height: 100%;
+   background: hsl(178, 100%, 50%) ;
+   opacity: 0;
+   transition: 0.5s;
+}
+main{
+  margin: 20px;
+}
+h1{
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  font-size: 20px;
+}
+h1:hover{
+  color: hsl(178, 100%, 50%) ;
+}
+ main p{
+  color: hsl(215, 51%, 70%);
+  margin-top: 10px;
+  font-size: 15px;
+}
+hr{
+  color:hsl(215, 32%, 27%);
+  margin: 15px 0;
+}
+article{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.coin{
+  color: hsl(178, 100%, 50%);
+}
+article img{
+  margin-right: 5px;
+}
+span{
+   color:  hsl(0, 0%, 100%);
+   cursor: pointer;
+}
+.owner{
+  display: flex;
+}
+span:hover{
+  color:  hsl(178, 100%, 50%);
+}
+.avater{
+  width: 40px;
+  margin-right: 10px;
+}
